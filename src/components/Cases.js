@@ -14,7 +14,7 @@ const caseStudies = [
   },
   {
     id: 2,
-    subtitle: 'Curology',
+    subtitle: 'Yourspace',
     title: 'Open space floor plans for your next adventure',
     img: 'yourspace-min',
     // rimg: '../assets/yourspace-min.png',
