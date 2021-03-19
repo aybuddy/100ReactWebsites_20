@@ -2,6 +2,8 @@ import React from 'react';
 import { ReactComponent as CasesNext } from '../assets/arrow-right.svg';
 import { ReactComponent as CasesPrev } from '../assets/arrow-left.svg';
 
+// TODO BUG Fix image upload issue
+
 const caseStudies = [
   {
     id: 1,
@@ -47,7 +49,7 @@ const Cases = () => {
               </div>
               <div className='case-image'>
                 <img
-                  src={require(`../assets/${caseItem.img}.png`)}
+                  src={require(`../assets/${caseItem.img}.png`).default}
                   alt={caseItem.title}
                 />
               </div>
